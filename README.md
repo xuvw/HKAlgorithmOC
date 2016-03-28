@@ -1,3 +1,3 @@
 # HKAlgorithmOC
 
-##Use BFS & DFS to search a subView of specified ClassName form superView
+1 Use BFS & DFS to search a subView of specified ClassName form superView
