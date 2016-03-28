@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UIView+HKExts.h"
 
 @interface AppDelegate ()
 
@@ -36,6 +37,11 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    UIView *view = [self.window subViewOfClass:@"UIButton"];
+    view.backgroundColor = [UIColor redColor];
+    
+    view = [self.window subViewOfClass:@"UILabel"];
+    view.backgroundColor = [UIColor redColor];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
